@@ -48,7 +48,7 @@ public class Operacionesclase {
                     b=aritmetica.pedirnumero();
                     aritmetica.resta(a, b);
                     break;
-                case 3:
+                case 3:     
                     a=aritmetica.pedirnumero();
                     b=aritmetica.pedirnumero();
                     aritmetica.multiplicacion(a, b);
@@ -76,7 +76,7 @@ public class Operacionesclase {
          switch (elegirb){
                 
                 case 1:
-                   Trigonometricas.calcularSeno();
+                   T2.calcularSeno();
                     break;
                 case 2:
                     Trigonometricas.calcularCoseno();
